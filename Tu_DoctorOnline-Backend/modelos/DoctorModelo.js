@@ -11,4 +11,4 @@ const doctorSchema = mongoose.Schema({
     passw: { type: String, maxLength: 20, required: true, unique: false }
 });
 
-module.exports = mongoose.model("Doctor", doctorSchema);
+module.exports = mongoose.model("Doctores", doctorSchema);
